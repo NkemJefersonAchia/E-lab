@@ -1,6 +1,5 @@
 
 
-@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Tektur:wght@400;500;600;700&display=swap');
 
 *{
     padding: 0;
@@ -64,7 +63,7 @@
 
 /* Service box style */
 .service-box {
-    background-color: #ffffff; /* White background */
+    background-color: #1E3A5F;; /* White background */
     padding: 40px;
     border-radius: 10px;
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); /* Soft shadow */
@@ -86,17 +85,17 @@
 }
 
 /* Heading style */
-.service-box h5 {
-    font-size: 1.5rem;
+.service-box h2 {
+    font-size: 1.7rem;
     font-weight: bold;
-    color: #333;
+    color: #f24e1e;
     margin-bottom: 20px;
 }
 
 /* Paragraph text style */
 .service-box p {
     font-size: 1rem;
-    color: #666;
+    color: #fffdfd;
     line-height: 1.6;
     text-align: justify;
     margin-bottom: 20px;
@@ -304,142 +303,45 @@
             margin-left: 50px;
         
         }
-
         #milestone {
-            background: linear-gradient(135deg, #f0f4f8, #a0b8d8);
-            padding: 60px 0;
-            border-radius: 15px;
-            box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.1);
-        }
+            padding: 60px;
+          }
         
-        .milestone-box {
-            background-color: rgba(255, 255, 255, 0.8);
-            padding: 30px;
+          .milestone-box {
+            background-color: #1E3A5F;
+            padding: 15px;
             border-radius: 12px;
             box-shadow: 0px 15px 30px rgba(0, 0, 0, 0.15);
             transition: transform 0.3s ease, box-shadow 0.3s ease;
-        }
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            width: 200px;
+            height: 200px;
+            margin: 100px; /* Adds spacing between boxes */
+          }
         
-        .milestone-box:hover {
+          .milestone-box:hover {
             transform: translateY(-10px);
             box-shadow: 0px 20px 50px rgba(0, 0, 0, 0.2);
-        }
+          }
         
-        .display-4.milestone-number {
-            font-size: 3rem;
+          .display-4.milestone-number {
+            font-size: 2.5rem;
             font-weight: 700;
-            color: #003366; /* Strong, professional blue */
-            transition: color 0.3s ease;
-        }
+            color: #f24e1e;
+          }
         
-        .milestone-text {
-            font-size: 1.1rem;
+          .milestone-text {
+            font-size: 1rem;
             font-weight: 500;
-            color: #1e254e; /* Subtle dark color for text */
-            margin-top: 10px;
-            transition: color 0.3s ease;
-        }
-        
-        .milestone-box:hover .milestone-number {
-            color: #f24e1e; /* Change color on hover */
-        }
-        
-        .milestone-box:hover .milestone-text {
-            color: #003366; /* Change text color on hover */
-        }
-        
-        @media (max-width: 768px) {
-            .milestone-box {
-                padding: 20px;
-            }
-        
-            .display-4.milestone-number {
-                font-size: 2.5rem;
-            }
-        }
-        
-
-
-        .service-box {
-
-            padding: 32px;
-            box-shadow: 0px 6px 30px rgba(0, 0, 0, 0.137);
+            color: white;
             text-align: center;
-
-        }
-
-        .service-box img {
-
-            width: 65px;
-            background-color: #4169E1;
-            margin-right: 25px;
-            border-radius: 50px;
-            border: 3px solid #092032;
-        
-        }
-
-        .service-box h5 {
-
-            margin-top: 24px;
-            margin-bottom: 12px;
-            font-size: 20px;
-        }
-
-
-        .project {
-            position: relative;
-        }
-
-        .project .overlay {
-
-            position: absolute;
-            width: 100%;
-            height: 240px;
-            background: linear-gradient(to bottom, rgba(9, 32, 50, 0.0),rgba(9, 32, 50, 0.8));
-            bottom: 0;
-            left: 0;
-        }
-
-
-        .project .content {
-
-            position: absolute;
-            width: 100%;
-            bottom: 0;
-            left: 0;
-            padding: 32px;
-        }
-
-        .project h1, 
-        .project h6 {
-
-            color: #ffff;
-        }
-
-        .project h1 {
-
-            font-size: 25px;
-            letter-spacing: 1px;
-        }
-
-        .project h6 {
-
-            font-size: 16px;
-            text-transform: uppercase;
-            letter-spacing: 1px;
-        }
-
-
-        .project h6::before {
-
-            content: '';
-            height: 2px;
-            width: 24px;
-            background-color: #3F51B5;
-            display: inline-block;
-            vertical-align: middle;
-            margin-right: 12px;
-        }
+            margin-top: 10px;
+            padding: 10px; /* Ensures text fits within the box */
+            line-height: 1.4;
+          }
 
          /* Full-width portfolio section */
 #portfolio {
@@ -450,7 +352,7 @@
 
 /* Portfolio box style */
 .portfolio-box {
-    background-color: #ffffff; /* White background for the text box */
+    background-color: #1E3A5F; /* White background for the text box */
     padding: 40px;
     border-radius: 10px;
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); /* Soft shadow for a clean look */
@@ -463,14 +365,14 @@
 .portfolio-box h1 {
     font-size: 2.5rem;
     font-weight: bold;
-    color: #333;
+    color: #f24e1e; 
     margin-bottom: 20px;
 }
 
 /* Paragraph text style */
 .portfolio-box p {
     font-size: 1.1rem;
-    color: #666;
+    color: #ffffff;
     line-height: 1.8;
     text-align: justify;
     margin-bottom: 20px;
@@ -496,51 +398,66 @@
     width: 100%;
     background-color: #f1f3f5; /* Light background color */
     padding: 40px 20px; /* Padding around the section */
-}
+  }
 
-/* Solution box style */
-.solution-box {
-    background-color: #bac9d3; /* White background for the text box */
+  /* Solution box style */
+  .solution-box {
+    background-color:  #1E3A5F;/* Background for the text box */
     padding: 40px;
     border-radius: 10px;
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); /* Soft shadow for a clean look */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); /* Soft shadow */
     text-align: center;
-    max-width: 1200px; /* Maximum width to avoid stretching on larger screens */
-    margin: 0 auto; /* Center the box horizontally */
-}
+    max-width: 600px; /* Limit width on larger screens */
+    margin: 20px auto; /* Center alignment */
+  }
 
-/* Heading style */
-.solution-box h1 {
+  /* Heading style */
+  .solution-box h1 {
     font-size: 2.5rem;
     font-weight: bold;
-    color: #333;
+    color: #f24e1e; /* Orange color for the title */
     margin-bottom: 20px;
-}
+  }
 
-/* Paragraph text style */
-.solution-box p {
+  /* Paragraph text style */
+  .solution-box p {
     font-size: 1.1rem;
-    color: #666;
+    color: #ffffff;
     line-height: 1.8;
     text-align: justify;
     margin-bottom: 20px;
-}
+  }
 
-/* Make sure the text scales properly on smaller devices */
-@media (max-width: 767px) {
+  /* Video card style */
+  .video-card {
+    padding: 20px;
+    background-color: #1E3A5F;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); /* Soft shadow */
+    text-align: center;
+    max-width: 600px;
+    margin: 20px auto; /* Center card when stacked */
+  }
+
+  .video-card video {
+    width: 100%;
+    border-radius: 10px;
+  }
+
+  /* Responsive styles for smaller screens */
+  @media (max-width: 767px) {
     .solution-box {
-        padding: 30px; /* Less padding for smaller screens */
+      padding: 30px;
     }
 
     .solution-box h1 {
-        font-size: 1.75rem; /* Smaller heading on small devices */
+      font-size: 1.75rem;
     }
 
     .solution-box p {
-        font-size: 1rem; /* Adjust paragraph text size for readability */
+      font-size: 1rem;
     }
-}
-
+  }
 /* Team Section Styling */
 #team {
     background-color: white;
@@ -769,17 +686,16 @@ h5 {
     }
 }
 
-/* challenges */
 /* Blog Post Styling */
 .blog-post {
-    background: #ffffff;
+    background: #1E3A5F;
     border-radius: 12px;
     overflow: hidden;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
     height: 100%; 
     display: flex;
     flex-direction: column;
-    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 5px 15px rgba(165, 40, 40, 0.1);
     position: relative;
 }
 
@@ -796,6 +712,17 @@ h5 {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+}
+
+/* Styling for Dates and Challenge Titles (Orange) */
+.blog-post small,
+.blog-post h4 {
+    color: #FF5722;  /* Orange color for the dates and titles */
+}
+
+/* Styling for Challenge Description Text (White) */
+.blog-post p {
+    color: #fff;  /* White color for the description text */
 }
 
 /* Hover Effects */
@@ -840,7 +767,7 @@ h5 {
     }
 }
 
-        /* FOOTER DESIGN */
+/* FOOTER DESIGN */
 footer {
     padding-top: 60px;
     padding-bottom: 30px;
@@ -865,7 +792,6 @@ footer::before {
     background: rgba(0, 0, 0, 0.2); /* Subtle dark overlay */
     z-index: 1;
 }
-
 /* Footer Content */
 .footer-top {
     position: relative;
